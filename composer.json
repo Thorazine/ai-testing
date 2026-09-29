@@ -1,0 +1,28 @@
+{
+    "name": "thorazine/ai-agent-testing",
+    "description": "Test agents with golden truths",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thorazine",
+            "email": "info@thorazine.io"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thorazine\\AiAgentTesting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thorazine\\AiAgentTesting\\AiAgentTestingServiceProvider"
+            ]
+        }
+    }
+}
